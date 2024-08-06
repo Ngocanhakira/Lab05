@@ -1,0 +1,105 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background for the page */
+body {
+    background-image: url('https://enhome.vn/wp-content/uploads/2022/03/hinh-nen-mau-hong-pastel-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+/* Header */
+header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 1em 0;
+}
+
+/* Navigation Bar */
+nav ul {
+    display: flex;
+    justify-content: flex-start;  /* Align items to the left */
+    list-style-type: none;
+    background-color: #ff69b4;  /* Pink color */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #ff69b4;
+    border-right: 1px solid white;
+}
+
+nav ul li a:hover {
+    background-color: brown;
+}
+
+/* Main Content */
+main {
+    float: left;
+    width: 65%;
+    padding: 1em;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    font-size: 8px;
+    font-style: italic;
+    color: green;
+    padding: 1em;
+}
+
+aside div {
+    margin-bottom: 1em;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #f8f9fa;
+    margin-top: 1em;
+}
+
+/* Articles */
+article {
+    margin-bottom: 1em;
+    box-shadow: 3px 3px 3px 2px #797979;
+    padding: 1em;
+}
+
+article h2 {
+    text-shadow: #aaa 2px 2px 2px;
+}
+
+/* List in Navigation */
+nav ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li a {
+    float: left;
+    width: calc(6 * 1em);
+    text-decoration: none;
+    color: white;
+    background-color: #ff69b4;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
